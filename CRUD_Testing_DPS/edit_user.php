@@ -4,8 +4,8 @@ $con = connection();
 
 $id_producto = $_POST['id_producto'];
 $marca = $_POST['marca'];
-$nombre = $_POST['nombre'];
-$precio = $_POST['precio'];
+$NOMBRE = $_POST['NOMBRE'];
+$costo = $_POST['costo'];
 
 
 $sql="UPDATE productos SET id_producto='$id', marca='$marca', nombre='$nombre', precio='$precio' WHERE id_producto=$id";
