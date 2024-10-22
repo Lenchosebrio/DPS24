@@ -13,5 +13,6 @@ if($query){
 }else{
 
 }ESTOS SON MIS CAMBIOS
+//Me gustan las tortas con chorizo y frijoles
 
 ?>
